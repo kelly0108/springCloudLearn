@@ -1,4 +1,4 @@
-package com.forezp.servicelucy;
+package com.forezp.serviceturbine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

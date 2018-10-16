@@ -7,7 +7,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
- management:
+management:
   endpoints:
     web:
       exposure:
@@ -15,7 +15,7 @@ eureka:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
- turbine:
+turbine:
   app-config: service-hi,service-lucy
   aggregator:
     clusterConfig: default
